@@ -1,0 +1,59 @@
+
+body,html {
+    background: #f2f2f2;
+    background: linear-gradient(#fefeff, #eaedf3);    
+}
+
+/************************/
+/* NEW TICKET AS PUBLIC */
+body > div.row.collapse > div.medium-9.large-10.columns.medium-centered.large-centered{
+    background: white;
+    box-shadow: rgba(158, 163, 172, 0.3) 0px 19px 60px, rgba(158, 163, 172, 0.22) 0px 15px 20px;
+    border-radius: 2px;
+    
+	margin: 20px auto 10px auto;
+    width: 95%;
+    max-width: 600px;
+}
+
+body > div.row.collapse > div.medium-9.large-10.columns.medium-centered.large-centered > .row > div.medium-9.columns{
+    width: 100%;
+	
+}
+
+#new_ticket h3{
+    text-align: center;
+    margin: 50px 0 30px 0;
+    font-size: 37px;
+    text-transform: uppercase;
+}
+
+#new_ticket input[type="submit"]{
+    width: 100%;
+}
+
+#new_ticket div.panel.mb.ptl.pbl.mbxl{
+    background: inherit;
+}
+
+
+
+/****************/
+/* LOGIN SCREEN */
+
+/* remove links */
+#new_user p.text-s.no-mb.text-center.mtl a:nth-child(5), #new_user p.text-s.no-mb.text-center.mtl span:nth-child(4){
+    display: none;    
+}
+
+/* change title */
+body > div.row.collapse > div.medium-9.large-10.columns.medium-centered.large-centered > div.row.mt.ptxxl > 
+div.medium-8.large-6.columns.medium-centered > h2.text-center.mbxl strong{
+    display: none;
+}
+body > div.row.collapse > div.medium-9.large-10.columns.medium-centered.large-centered > div.row.mt.ptxxl > 
+div.medium-8.large-6.columns.medium-centered > h2.text-center.mbxl:before{
+    content: "TICKETS"
+}
+
+
