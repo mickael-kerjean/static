@@ -1,9 +1,4 @@
 
-body,html {
-    background: #f2f2f2;
-    background: linear-gradient(#fefeff, #eaedf3);    
-}
-
 /************************/
 /* NEW TICKET AS PUBLIC */
 body > div.row.collapse > div.medium-9.large-10.columns.medium-centered.large-centered{
