@@ -27,6 +27,8 @@ body > div.row.collapse > div.medium-9.large-10.columns.medium-centered.large-ce
     text-transform: uppercase;
 }
 
+select { outline: none; }
+
 #new_ticket input[type="submit"]{
     width: 100%;
 }
@@ -35,7 +37,14 @@ body > div.row.collapse > div.medium-9.large-10.columns.medium-centered.large-ce
     background: inherit;
 }
 
-
+#new_ticket trix-editor{
+    border: 1px solid #ddd;
+    border-radius: 0;
+}
+#new_ticket trix-editor:focus{
+    background: #fafafa;
+    border-color: #999999;
+}
 
 /****************/
 /* LOGIN SCREEN */
