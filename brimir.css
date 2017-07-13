@@ -45,6 +45,11 @@ select { outline: none; }
     background: #fafafa;
     border-color: #999999;
 }
+#new_ticket trix-toolbar .button_group {
+    border-radius: 2px;
+    border: 1px solid #ddd;
+}
+
 
 /****************/
 /* LOGIN SCREEN */
@@ -79,9 +84,15 @@ div.medium-8.large-6.columns.medium-centered > h2.text-center.mbxl:before{
 }
 
 
-/**************?
+/**************/
+/* BUGFIX */
+
 /* Fix UI MENU BUG */
 body{height: initial; min-height: 100%;}
 
 /* Fix Trashed page UI bug */
 form.prm a.secondary.radius.tiny.button.right.mlm{margin: 0;}
+
+/* Menu user colors */
+nav > section.top-bar-section ul.dropdown a{background: #30363e!important;}
+nav > section.top-bar-section ul.dropdown a:hover{background: #616b80!important;}
