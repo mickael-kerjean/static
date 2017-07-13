@@ -70,3 +70,12 @@ div.medium-8.large-6.columns.medium-centered > h2.text-center.mbxl:before{
 }
 
 
+/**************?
+/* Fix UI MENU BUG */
+body > div.row.collapse{positon: relative;}
+body > div.row.collapse > aside.hide-for-small.medium-3.large-2.columns{
+    height: 100%;
+    position: absolute;
+    background: #30363e;
+}
+
