@@ -65,17 +65,20 @@ div.medium-8.large-6.columns.medium-centered > h2.text-center.mbxl:before{
 }
 
 /* Login screen username and password container */
-@media only screen and (min-width: 64.0625em) body > div.row.collapse > div.medium-9.large-10.columns.medium-centered.large-centered > .row.mt.ptxxl > div.medium-8.large-6.columns.medium-centered {
-    width: 75%;
+@media only screen and (min-width: 64.0625em) {
+    body > div.row.collapse > div.medium-9.large-10.columns.medium-centered.large-centered > .row.mt.ptxxl > div.medium-8.large-6.columns.medium-centered {
+        width: 75%;
+    }
+}
+/* Recover Password */
+@media only screen and (min-width: 64.0625em) {
+    body > div.row.collapse > div.medium-9.large-10.columns.medium-centered.large-centered > .row.mt > .medium-8.large-6.columns.medium-centered{
+        margin: 10px auto;
+        width: 75%;
+    }
 }
 
 
 /**************?
 /* Fix UI MENU BUG */
-body > div.row.collapse{positon: relative;}
-body > div.row.collapse > aside.hide-for-small.medium-3.large-2.columns{
-    height: 100%;
-    position: absolute;
-    background: #30363e;
-}
-
+body{height: initial; min-height: 100%;}
